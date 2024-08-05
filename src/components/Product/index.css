@@ -1,0 +1,30 @@
+.productContainer{
+    display: inline-flex;
+}
+
+.productImage{
+    height: 100%;
+    width: 100%;
+}
+
+.leftPanel{
+    height: 50%;
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.productTile{
+    margin: 15px;
+}
+
+.rightPanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addCartBtn{
+    width: 20%;
+}

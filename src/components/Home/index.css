@@ -1,0 +1,27 @@
+.productList{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    padding-right: 30px;
+}
+
+.productListItem{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.productListItem:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+
+.productListItem .productImage{
+    height: 100px;
+    width: 100px;
+}
+
+.productDetail{
+    padding: 10px;
+}
